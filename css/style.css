@@ -1,0 +1,185 @@
+/*****************
+    GENERAL CSS
+ ****************/
+body{
+    background-color: #fff;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+  
+.container.body{
+    margin-top: 70px;
+}
+.text-justify{
+    text-align: justify;
+}
+
+/****************** 
+    Jumbotron
+******************/
+.jumbotron{
+    background: url('../img/kwalisa-bn.png') no-repeat top center/cover;
+    height: 450px;
+    padding: 40px;
+}
+
+.jumbotron .container-fluid p{
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+    .jumbotron{
+        padding: 10px;
+        height: 400px;
+    }
+    .jumbotron .container-fluid h1{
+        font-size: 30px;
+    }
+    .jumbotron .container-fluid p{
+        font-size: 16px;
+    }
+}
+
+/*****************
+    COMPANY
+ ****************/
+ .products-row .row .col-6{
+    padding:25px;
+}
+ .company{
+     border-radius: 10px;
+     height: 320px;
+     display: flex;
+     align-items: center;
+ }
+ .company img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+ }
+ .company .card-body{
+    height: 80px;
+    text-align: justify;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+   /* .product{
+     width: 200px;
+     display: flex;
+ } */
+    .products-row .row .col-6{
+        padding:7px;
+    }
+    .product{
+        border-radius: 10px;
+        height: 225px;
+    }
+    .product img{
+        width: 100%;
+        height: 160px;
+        border-radius: 5px;
+    }
+    .product .card-body{
+        height: 30px;
+        text-align: justify;
+        padding: 3px;
+    }
+    .product-title{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    .product-price{
+        margin-top: 1px;
+        font-size: 17px;
+    }
+    
+}
+
+/*****************
+    ARTICLE
+ ****************/
+ .article{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.article img{
+   width: 100%;
+   height: 235px;
+   border-radius: 10px 10px 0px 0px;
+}
+.article .card-body{
+    height: 190px;
+}
+
+.article .card-body p{
+    text-decoration: none;
+}
+
+.article-title{
+    /* font-size: 20px; */
+    line-height: normal;
+}
+
+/*****************
+    FOOTER
+ ****************/
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff; }
+footer.page-footer .container-fluid {
+      width: auto; }
+footer.page-footer .footer-copyright {
+      overflow: hidden;
+      color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(0, 0, 0, 0.2); }
+footer.page-footer a {
+      color: #fff; }
+
+/****************** 
+    BLOG
+******************/
+
+.blog2 p{
+    text-align: justify;
+    justify-content: space-evenly;
+  }
+
+  .blog2 img{
+    width: 100%;
+    height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    .blog2 img{
+        width: 100%; 
+        height: 240px;
+    }
+}
+/****************** 
+    BLOG
+******************/
+
+.banner{
+    width: 100%;
+    height: 450px;
+  }
+  @media (max-width: 992px) {
+    .banner { 
+        width: 100%;
+        height: 250px; 
+    }
+  }
